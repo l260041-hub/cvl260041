@@ -1,0 +1,78 @@
+/* ---------- Page ---------- */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #eef2f7;
+  color: #1f2937;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #12355b;
+}
+
+/* ---------- Table ---------- */
+/* Lets the table scroll sideways on small phone screens */
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+th,
+td {
+  padding: 14px 12px;
+  text-align: center;
+  border: 1px solid #dde3ec;
+}
+
+/* Header row (days) */
+thead th {
+  background-color: #12355b;
+  color: white;
+  font-weight: 600;
+}
+
+/* Time column */
+tbody th {
+  background-color: #f6f8fb;
+  color: #4b5563;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Hover highlight for lesson cells */
+tbody td:hover {
+  filter: brightness(0.95);
+}
+
+/* ---------- Break row ---------- */
+.break td {
+  background-color: #e5e7eb;
+  color: #6b7280;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/* ---------- Subject colours ---------- */
+/* Each class in the HTML matches one of these rules */
+.math    { background-color: #dbeafe; }
+.english { background-color: #fde2e4; }
+.science { background-color: #d9f2e3; }
+.history { background-color: #fdf0c9; }
+.art     { background-color: #e9ddf7; }
+.pe      { background-color: #ffe0cc; }
